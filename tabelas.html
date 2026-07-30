@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula LIMA - Tabelas</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="ancoras.html">Âncoras</a>
+        <a href="imagens.html">Imagens</a>
+        <a href="listas.html">Listas</a>
+        <a href="texto.html">Elementos de texto</a>
+    </nav>
+    <main>
+        <h1>Tabelas</h1>
+        <p>Exemplo de tabela com colspan e rowspan.</p>
+
+        <table border="1" cellpadding="8" cellspacing="0">
+            <caption>Notas da turma</caption>
+            <thead>
+                <tr>
+                    <th>Aluno</th>
+                    <th>Turma</th>
+                    <th>Nota</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ana</td>
+                    <td>1A</td>
+                    <td>9,0</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Carlos e Júlia</td>
+                    <td>8,5</td>
+                </tr>
+                <tr>
+                    <td>Bruno</td>
+                    <td rowspan="2">2B</td>
+                    <td>7,5</td>
+                </tr>
+                <tr>
+                    <td>Marina</td>
+                    <td>8,0</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
